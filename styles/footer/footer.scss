@@ -6,9 +6,7 @@
 .footer-text{
     width:80%;
     margin:auto;
-    h2{
-        font-size: 1.5em;
-    }
+ 
 }
 .image-div{
     margin-top: 10%;
@@ -29,7 +27,7 @@
     margin:15% 0;
 }
 
-.foot{
+.foot-text{
     width:85%;
     margin-left:10%;
 
@@ -61,11 +59,57 @@
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     height:auto;
+    max-width: 300px;
   
 
     img{
         height:50px;
         width:50px;
         cursor: pointer;
+    }
+}
+@media (min-width:500px) {
+    .socials{
+        display:flex;
+        flex-direction:row;
+        gap:10%
+    }
+    .footer h2{
+        font-size: 2.3em;
+    }
+    .footer p {
+        font-size: 1.2em;
+    }
+}
+
+
+@media (min-width:800px) {
+    .methods{
+        margin:5% 0;
+    }
+    .pay-images{
+        width:140px;
+        height:140px;
+    }
+    .image-div{
+        margin: 10% auto;
+    }
+
+    .footer-text{
+        max-width: 500px;
+        text-align: center;
+        p{
+            font-size: 1.2em;
+        }
+    }
+
+    .bottom-hr{
+        margin: 5% 0;
+    }
+
+    .foot-text {
+        max-width: 500px;
+        text-align: center;
+        margin:auto;
     }
 }

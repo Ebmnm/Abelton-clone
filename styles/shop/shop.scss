@@ -18,7 +18,7 @@
     
 }
 h2{
-    font-size: 2.41em;
+    font-size: 2.1em;
     margin-bottom: 15px;
 }
 
@@ -76,10 +76,10 @@ padding-bottom: .6em;
     .max-text{
         width:70%;
         padding: 2em;
+        padding-top: 1em;
+        ;
     }
-    h2{
-        font-size: 1.5em;
-    }
+  
     a{
         color:rgb(184, 176, 176);
     }
@@ -100,7 +100,7 @@ padding-bottom: .6em;
 
 .making-music{
   
-    height: 75vh;
+    height: auto;
     width:100vw;
     color:black;
     font-family: "Roboto";
@@ -110,19 +110,16 @@ padding-bottom: .6em;
 .making-music-text{
     width:90%;
     padding: 2em;
-    margin:auto;
-
-h2{
-    font-size: 1.5em;
-}
-a{
+    padding-top: 1em;
+ 
+        a{
     color:blue;
 }
 
-p{
+    p{
     margin:1em 0;
 }
-button{
+    button{
     color: #fff !important;
 background: blue;
 border: 0;
@@ -130,7 +127,7 @@ cursor: pointer;
 padding:.3em 1.2em;
 font-weight: 900;
 }
-span{
+    span{
     color:gray;
     font-weight: 1000;
     font-size: .8em;
@@ -172,3 +169,36 @@ span{
         }
 }
 
+@media (min-width:900px) {
+    .shop-split {
+        display:flex;
+        flex-direction: row;
+    }
+
+    .push{
+        height:80vh;
+    }
+
+    .second-split{
+        display:flex;
+        flex-direction: row;
+    }
+
+    .max-for-live{
+        height:75vh;
+    }
+
+ 
+
+    .colors{
+        display:flex;
+        flex-direction: row; 
+        height:auto;
+        .color-text{
+            margin:auto;
+            text-align: center;
+            font-size: 1.2em;
+            padding:4em;
+        }
+    }
+}

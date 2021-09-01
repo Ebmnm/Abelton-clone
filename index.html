@@ -16,8 +16,16 @@
 <body>
     <nav>
         <div class="mobile">
-            <svg class="main-nav__logo__image" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="45px" height="21px" viewBox="0 0 45 21" enable-background="new 0 0 45 21" xml:space="preserve"><g><rect width="3" height="21"></rect><rect x="6" width="3" height="21"></rect><rect x="12" width="3" height="21"></rect><rect x="18" width="3" height="21"></rect><g><rect x="24" y="18" width="21" height="3"></rect><rect x="24" y="12" width="21" height="3"></rect><rect x="24" y="6" width="21" height="3"></rect><rect x="24" width="21" height="3"></rect></g></g></svg>
-            <h2>Menu </h2> <img src="https://img.icons8.com/ios-filled/20/000000/menu--v1.png"/>
+            <svg  class="main-nav__logo__image" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="45px" height="21px" viewBox="0 0 45 21" enable-background="new 0 0 45 21" xml:space="preserve"><g><rect width="3" height="21"></rect><rect x="6" width="3" height="21"></rect><rect x="12" width="3" height="21"></rect><rect x="18" width="3" height="21"></rect><g><rect x="24" y="18" width="21" height="3"></rect><rect x="24" y="12" width="21" height="3"></rect><rect x="24" y="6" width="21" height="3"></rect><rect x="24" width="21" height="3"></rect></g></g></svg>
+            <h2>Menu </h2> <img onclick="toggleShow()" src="https://img.icons8.com/ios-filled/20/000000/menu--v1.png"/>
+        </div>
+        <div class="mobile-nav">
+            <h2>Live</h2>
+            <h2>Push</h2>
+            <h2>Link</h2>
+            <h2>Shop</h2>
+            <h2>Try Live for Free</h2>
+              <h2>Log in or register</h2>
         </div>
         <div class="nav-links">
             <svg class="main-nav__logo__image" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="45px" height="21px" viewBox="0 0 45 21" enable-background="new 0 0 45 21" xml:space="preserve"><g><rect width="3" height="21"></rect><rect x="6" width="3" height="21"></rect><rect x="12" width="3" height="21"></rect><rect x="18" width="3" height="21"></rect><g><rect x="24" y="18" width="21" height="3"></rect><rect x="24" y="12" width="21" height="3"></rect><rect x="24" y="6" width="21" height="3"></rect><rect x="24" width="21" height="3"></rect></g></g></svg>
@@ -83,6 +91,7 @@
     <p>Learn more ></p>
 </div>
 
+<section class="second-split">
 <div class="max-for-live">
     <div class="max-text">
         <h2>Max for Live</h2>
@@ -108,7 +117,7 @@
         <span>Published by Ableton, 340 pages, hardcover, ISBN: 978-3-9817165-0-4</span>
     </div>
 </div>
-
+</section>
 <div class="colors">
  <div class="green">
 <div class="color-text">
@@ -154,13 +163,15 @@
 <hr class="bottom-hr">
 
 <section class="foot">
-<h2>Abelton</h2>
-<b>Sign up for our newsletter</b>
-<p>Enter your email address to stay up to date with the latest offers, tutorials, downloads, surveys and more.</p>
-<form action="submit">
-    <input type="text" placeholder="Email Address">
-    <button>Sign up</button>
-</form>
+<div class="foot-text">
+    <h2>Abelton</h2>
+    <b>Sign up for our newsletter</b>
+    <p>Enter your email address to stay up to date with the latest offers, tutorials, downloads, surveys and more.</p>
+    <form action="submit">
+        <input type="text" placeholder="Email Address">
+        <button>Sign up</button>
+    </form>
+</div>
 
 <div class="socials">
 <img src="./Social icons/5365678_fb_facebook_facebook logo_icon.png" alt="">
@@ -174,4 +185,14 @@
 
 
 </body>
+
+<script>
+
+    function toggleShow() {
+     let mobileNav = document.getElementsByClassName('mobile-nav')
+        mobileNav[0].classList.toggle("show")
+        
+    } 
+
+</script>
 </html>

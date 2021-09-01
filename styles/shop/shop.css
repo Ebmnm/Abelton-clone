@@ -16,7 +16,7 @@
 }
 
 h2 {
-  font-size: 2.41em;
+  font-size: 2.1em;
   margin-bottom: 15px;
 }
 
@@ -84,10 +84,7 @@ a {
 .max-for-live .max-text {
   width: 70%;
   padding: 2em;
-}
-
-.max-for-live h2 {
-  font-size: 1.5em;
+  padding-top: 1em;
 }
 
 .max-for-live a {
@@ -108,7 +105,7 @@ a {
 }
 
 .making-music {
-  height: 75vh;
+  height: auto;
   width: 100vw;
   color: black;
   font-family: "Roboto";
@@ -118,11 +115,7 @@ a {
 .making-music-text {
   width: 90%;
   padding: 2em;
-  margin: auto;
-}
-
-.making-music-text h2 {
-  font-size: 1.5em;
+  padding-top: 1em;
 }
 
 .making-music-text a {
@@ -179,5 +172,48 @@ a {
 .colors .color-text h2 {
   font-size: 1.5em;
   font-weight: 700;
+}
+
+@media (min-width: 900px) {
+  .shop-split {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .push {
+    height: 80vh;
+  }
+  .second-split {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .max-for-live {
+    height: 75vh;
+  }
+  .colors {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: auto;
+  }
+  .colors .color-text {
+    margin: auto;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 4em;
+  }
 }
 /*# sourceMappingURL=shop.css.map */
