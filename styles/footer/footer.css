@@ -36,6 +36,10 @@
   margin-left: 10%;
 }
 
+.foot-text h2 {
+  color: #ff764d;
+}
+
 .foot-text p {
   margin: 5% 0;
 }
@@ -119,8 +123,11 @@
   }
   .foot-text {
     max-width: 500px;
-    text-align: center;
+    text-align: left;
     margin: auto;
+  }
+  .foot-text h2 {
+    font-size: 3.6em;
   }
 }
 /*# sourceMappingURL=footer.css.map */

@@ -162,6 +162,7 @@ a {
   padding: 2em;
   font-family: "Roboto";
   max-width: 450px;
+  margin: auto;
 }
 
 .colors .color-text a {
@@ -184,6 +185,9 @@ a {
         -ms-flex-direction: row;
             flex-direction: row;
   }
+  .shop-split h2 {
+    font-size: 4em;
+  }
   .push {
     height: 80vh;
   }
@@ -195,6 +199,9 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+  }
+  .second-split h2 {
+    font-size: 3em;
   }
   .max-for-live {
     height: 75vh;
@@ -214,6 +221,9 @@ a {
     text-align: center;
     font-size: 1.2em;
     padding: 4em;
+  }
+  .colors h2 {
+    font-size: 2.4em !important;
   }
 }
 /*# sourceMappingURL=shop.css.map */
