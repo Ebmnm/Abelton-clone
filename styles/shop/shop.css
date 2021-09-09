@@ -162,7 +162,7 @@ a {
 .colors .color-text {
   padding: 2em;
   font-family: "Roboto";
-  max-width: 450px;
+  max-width: 480px;
   margin: auto;
 }
 
@@ -227,8 +227,12 @@ a {
     margin: auto;
     text-align: center;
     font-size: 1.2em;
-    padding: 4em;
-    max-height: 313px;
+    padding: 3.9em;
+    max-height: 300px;
+    max-width: 400px;
+  }
+  .colors .blue {
+    padding-left: 2%;
   }
   .colors h2 {
     font-size: 2.4em !important;
