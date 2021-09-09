@@ -99,7 +99,7 @@ padding-bottom: .6em;
 }
 
 .making-music{
-  
+  margin:auto;
     height: auto;
     width:100vw;
     color:black;
@@ -194,6 +194,10 @@ font-weight: 900;
 
     .max-for-live{
         height:75vh;
+        background-color: black;
+    }
+    .making-music{
+        height: 75vh;
     }
 
  
@@ -201,12 +205,14 @@ font-weight: 900;
     .colors{
         display:flex;
         flex-direction: row; 
-        height:auto;
+        height:fit-content;
         .color-text{
             margin:auto;
             text-align: center;
             font-size: 1.2em;
             padding:4em;
+            max-height: 313px;
+            
         }
 
         h2{

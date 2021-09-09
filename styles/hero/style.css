@@ -7,7 +7,7 @@
 
 body {
   max-width: 100%;
-  /* overflow-x:hidden */
+  overflow-x: hidden;
 }
 
 .mobile {
@@ -216,6 +216,11 @@ nav {
   .nav-links {
     font-size: .6em;
   }
+  .text {
+    width: 60%;
+    margin: 10% auto;
+    font-size: 1.5em;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -235,6 +240,9 @@ nav {
     width: 45%;
     margin: 10% auto;
     font-size: 1.5em;
+  }
+  p {
+    font-size: 1.1em;
   }
 }
 /*# sourceMappingURL=style.css.map */

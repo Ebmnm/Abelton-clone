@@ -105,6 +105,7 @@ a {
 }
 
 .making-music {
+  margin: auto;
   height: auto;
   width: 100vw;
   color: black;
@@ -205,6 +206,10 @@ a {
   }
   .max-for-live {
     height: 75vh;
+    background-color: black;
+  }
+  .making-music {
+    height: 75vh;
   }
   .colors {
     display: -webkit-box;
@@ -214,13 +219,16 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    height: auto;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   .colors .color-text {
     margin: auto;
     text-align: center;
     font-size: 1.2em;
     padding: 4em;
+    max-height: 313px;
   }
   .colors h2 {
     font-size: 2.4em !important;

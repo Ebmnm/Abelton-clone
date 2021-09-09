@@ -121,3 +121,33 @@
         }
     }
 }
+
+@media (min-width:900px) {
+    .footer{
+        display:flex;
+        flex-direction: row;
+    }
+    .footer-one{
+        margin-top: 6%;
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding-bottom: 10%;
+
+    }
+
+    .methods{
+        width:100%;
+        margin: auto 0;
+    }
+    .footer-text{
+        margin: auto;
+    }
+
+    .footer-two{
+        width:50%;
+      margin: auto 0;
+    }
+}
